@@ -36,6 +36,7 @@ this project demonstrates how **Python-based audit automation** can enhance accu
 ---
 
 ## 📂 Folder Structure  
+```
 UIUC_Accounting_Analytics_Project/
 │
 ├── 📁 data/ # Input transaction data
@@ -57,6 +58,7 @@ UIUC_Accounting_Analytics_Project/
 │ └── audit_summary.xlsx
 │
 └── 📄 README.md
+```
 
 ## 📈 Example Output  
 The generated PDF report includes:
