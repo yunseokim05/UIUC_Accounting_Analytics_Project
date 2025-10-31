@@ -1,0 +1,7 @@
+Invoice_ID,Date,Vendor,Amount,Category
+INV001,2025-09-01,Starbucks,25.50,Marketing
+INV002,2025-09-01,Amazon,-35.00,Supplies
+INV004,2025-09-05,Printing Co.,200.00,Design
+INV005,2025-09-06,,150.00,Equipment
+INV006,2025-09-07,Cafe Bene,9999.00,Food
+INV001,2025-09-08,Starbucks,25.50,Marketing

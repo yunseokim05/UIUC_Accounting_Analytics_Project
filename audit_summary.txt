@@ -1,0 +1,34 @@
+Accounting Error Detection Summary
+
+--- duplicate_invoice (2) ---
+Invoice_ID       Date    Vendor  Amount  Category
+    INV001 2025-09-01 Starbucks    25.5 Marketing
+    INV001 2025-09-08 Starbucks    25.5 Marketing
+
+--- negative_amounts (1) ---
+Invoice_ID       Date Vendor  Amount Category
+    INV002 2025-09-01 Amazon   -35.0 Supplies
+
+--- missing_values (1) ---
+Invoice_ID       Date Vendor  Amount  Category
+    INV005 2025-09-06    NaN   150.0 Equipment
+
+--- outliers_z3 (0) ---
+(none)
+
+--- outliers_iqr (1) ---
+Invoice_ID       Date    Vendor  Amount Category
+    INV006 2025-09-07 Cafe Bene  9999.0     Food
+
+--- over_threshold(|Amount|>1000) (1) ---
+Invoice_ID       Date    Vendor  Amount Category
+    INV006 2025-09-07 Cafe Bene  9999.0     Food
+
+--- weekend (2) ---
+Invoice_ID       Date    Vendor  Amount  Category
+    INV005 2025-09-06       NaN   150.0 Equipment
+    INV006 2025-09-07 Cafe Bene  9999.0      Food
+
+--- empty_vendor (1) ---
+Invoice_ID       Date Vendor  Amount  Category
+    INV005 2025-09-06    NaN   150.0 Equipment
