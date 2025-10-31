@@ -76,3 +76,11 @@ The generated PDF report includes:
    ```bash
    git clone https://github.com/yunseokim05/UIUC_Accounting_Analytics_Project.git
    cd UIUC_Accounting_Analytics_Project
+
+## 🌟 Project Summary for Recruiters
+This project demonstrates my ability to combine **accounting knowledge and data science skills** to automate financial audit processes.  
+It showcases **data preprocessing, anomaly detection, and automated reporting** — critical components of modern accounting analytics.  
+
+> **Core Skills:** Python (pandas, matplotlib, reportlab), Statistical analysis (Z-score, IQR), Financial anomaly detection  
+> **Target Role:** Accounting Data Analyst / Financial Analytics Intern  
+> **Institution:** University of Illinois Urbana-Champaign (Gies College of Business)
