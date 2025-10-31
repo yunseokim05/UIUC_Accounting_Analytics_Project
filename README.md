@@ -36,7 +36,27 @@ this project demonstrates how **Python-based audit automation** can enhance accu
 ---
 
 ## 📂 Folder Structure  
-
+UIUC_Accounting_Analytics_Project/
+│
+├── 📁 data/ # Input transaction data
+│ └── transaction.csv
+│
+├── 📁 src/ # Core analysis & reporting scripts
+│ ├── main.py
+│ ├── make_report.py
+│ ├── make_report_full.py
+│ └── make_report_portfolio.py
+│
+├── 📁 reports/ # Generated PDF reports
+│ ├── Accounting_Audit_Report.pdf
+│ ├── Accounting_Audit_Report_FULL.pdf
+│ └── Accounting_Audit_Report_UIUC_Portfolio.pdf
+│
+├── 📁 artifacts/ # Intermediate outputs
+│ ├── audit_summary.txt
+│ └── audit_summary.xlsx
+│
+└── 📄 README.md
 
 ## 📈 Example Output  
 The generated PDF report includes:
